@@ -11,8 +11,6 @@ public class Medication {
                 this.availability = availability;
         }
 
-
-
         public String getName() {
                 return name;
         }

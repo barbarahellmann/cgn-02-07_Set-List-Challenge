@@ -43,7 +43,7 @@ public class Main {
 
 
         // Printing all medications before deletion
-        System.out.println("\nMedications before deletion:");
+        System.out.println("\nMedications before deletion: " + pharmacy.getCount());
         pharmacy.printMedications();
 
 
@@ -54,7 +54,7 @@ public class Main {
 
 
 
-        System.out.println("\nMedications after deletion:");
+        System.out.println("\nMedications after deletion: " + pharmacy.getCount());
         pharmacy.printMedications();
 
 
